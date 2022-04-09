@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev23 js01回目</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+  </head>
+
+  <body>
+    <p class="gazou rotate">
+      <img id="jankenpon" src="jan.png" width="100" height="100">
+    </p>
+
+    <button onclick="R_Click(0);" class="btna"> グー</button>
+    <button onclick="R_Click(1);" class="btnb"> チョキ</button>
+    <button onclick="R_Click(2);" class="btnc"> パー</button>
+
+    <p class="gazou">
+      <img id="jankenpon2" src="jan.png" width="100" height="100">
+    </p>
+
+    <div id="Rejan1" class="text"></div>
+    <div id="Rejan2" class="text"></div>
+  </body>
+</html>

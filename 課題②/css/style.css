@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.btna{
+    display: block;
+    width:214px;
+    margin: auto;
+    padding: 21px 0;
+    background: #ff86cd;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+
+.btna:hover{
+    background: red;
+}
+
+.btnb{
+    display: block;
+    width:214px;
+    margin: auto;
+    padding: 21px 0;
+    background: #fffab9;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+
+.btnb:hover{
+    background: rgb(255, 215, 56);
+}
+
+.btnc{
+    display: block;
+    width:214px;
+    margin: auto;
+    padding: 21px 0;
+    background: #1ab1ff;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+
+.btnc:hover{
+    background: blue;
+}
+
+
+.gazou{
+    margin: 0 0 24px;
+    text-align: center;
+    width:214px;
+    margin: auto;
+}
+
+.text{
+    text-align: center;
+}
+
+.rotate{
+    transform:rotate( -180deg );
+}
